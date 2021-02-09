@@ -27,14 +27,22 @@
         @include('.landingpages.part.navbar')
       {{-- akhir navbar --}}
       
-      {{--  index  --}}
-      @include('.landingpages.part.index')
-      {{--  akhir index  --}}
-
-      {{--  kanan  --}}
-      @include('.landingpages.part.kanan')
-      {{--  akhir kanan      --}}
-
+      {{-- content --}}
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+                  {{--  index  --}}
+                  @include('.landingpages.part.index')
+                  {{--  akhir index  --}}
+          </div>
+          <div class="col-md-4">
+                  {{--  kanan  --}}
+                  @include('.landingpages.part.kanan')
+                  {{--  akhir kanan      --}}
+          </div>
+        </div>
+      </div>
+      {{-- akhir content --}}
 
       {{--  footer  --}}
       @include('.landingpages.part.footer')

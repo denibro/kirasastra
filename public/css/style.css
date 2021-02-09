@@ -204,7 +204,6 @@
                             bottom: 135px;
                             z-index: 1;
                             font-family: viga;
-                            left: 23px;
 
                             /* animasi */
                             -webkit-animation-name: slideInLeft;
@@ -239,10 +238,22 @@
                         }
 
                         .area_populer {
-                            height: 800px;
                             width: 710px;
                             margin-top: -150px;
-                            border: 0;
+                            border: 1;
+                            
+                        }
+
+                        .s {
+                            height: 700px;
+                        }
+
+
+                        .kanan {
+                            height: 500px;
+                            width: 300px;
+                            margin-top: -30px;
+                            border: 1;
                         }
 
                         /* footer */
