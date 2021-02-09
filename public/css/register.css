@@ -1,0 +1,64 @@
+.formregister {
+    top: 50px;
+    width: 930px;
+    height: 530px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.text-home {
+    color:#7248E1;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    left: 810px;
+    top: 20px;
+}
+
+.registerkiri {
+    position: relative;
+    top: -21px;
+    left: -20px;
+    width: 500px;
+}
+
+.card .registerkanan {
+    position: absolute;
+    z-index: 1;
+    left: 540px;
+    top: 45px;
+    border: 0;
+}
+
+.text-signup {
+    color:#7248E1;
+    font-size: 24px;
+    position: relative;
+    left: 5px;
+}
+
+.form-control {
+    margin-top: 28px;
+    width: 297;
+    height: 47px;
+    border-radius: 20px;
+}
+
+.tombol-signup {
+    width: 297px;
+    height: 47px;
+    background: linear-gradient(to right, #7248E1, #EB64E5);   
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 17px;
+    color: white;
+}
+
+.text-login {
+    position: relative;
+    color:#C8C8C8;
+    font-size: 14px;
+    top: -10px;
+    left: 90px;
+}
