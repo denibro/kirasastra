@@ -204,6 +204,7 @@
                             bottom: 135px;
                             z-index: 1;
                             font-family: viga;
+                            margin-left: 10px;
 
                             /* animasi */
                             -webkit-animation-name: slideInLeft;
@@ -240,18 +241,39 @@
                         .area_populer {
                             width: 710px;
                             margin-top: -150px;
-                            border: 1;
+                            border: 0;
+                            padding: 20px;
                             
                         }
 
-                        .s {
-                            height: 700px;
+                        .card .s {
+                            margin-left: 3px;
+                            border-radius: 5px;
+                            height: 220px;
+                            
+                        }
+
+                        .card-text {
+                            overflow: hidden;
+                            height: 100px;
+                        }
+
+                        .area_terbaru {
+                            margin-top: 10px;
+                            margin-left: -10px;
+                            border: 1;
+                        }
+
+                        .text-terbaru {
+                            font-family: viga;
+                            margin-top: 100px;
+                            margin-left: -10px;
                         }
 
 
                         .kanan {
                             height: 500px;
-                            width: 300px;
+                            width: 330px;
                             margin-top: -30px;
                             border: 1;
                         }
