@@ -1,0 +1,276 @@
+
+
+/* -------------------------------------------------DESKTOP VERSION ---------------------------------------------------------------------- */
+                    @media (min-width: 992px) {
+
+                        html {
+                            position: relative;
+                        }
+
+                        body {
+                            margin-bottom: 100px;
+                        }
+
+                        /* navbar */
+                        .navbar {
+                            position: relative;
+                            z-index: 1;
+                        }
+                        .navbar-brand {
+                            font-family: viga;
+                            font-size: 36px;
+                            color: #ffffff !important;
+                            text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.4);
+                            
+                                /* animasi */
+                                -webkit-animation-name: slideInDown;
+                                animation-name: slideInDown;
+                                -webkit-animation-duration: 1s;
+                                animation-duration: 1s;
+                                -webkit-animation-fill-mode: both;
+                                animation-fill-mode: both;
+                                }
+                                @-webkit-keyframes slideInDown {
+                                0% {
+                                -webkit-transform: translateY(-100%);
+                                transform: translateY(-100%);
+                                visibility: visible;
+                                }
+                                100% {
+                                -webkit-transform: translateY(0);
+                                transform: translateY(0);
+                                }
+                                }
+                                @keyframes slideInDown {
+                                0% {
+                                -webkit-transform: translateY(-100%);
+                                transform: translateY(-100%);
+                                visibility: visible;
+                                }
+                                100% {
+                                -webkit-transform: translateY(0);
+                                transform: translateY(0);
+                                }
+                                /* akhir animasi */
+                        }
+
+                        .nav-link {
+                            color: #ffffff !important;
+                            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+                            margin-right: 35px;
+                            font-family: viga;
+
+                                /* animasi */
+                                -webkit-animation-name: slideInRight;
+                                animation-name: slideInRight;
+                                -webkit-animation-duration: 1s;
+                                animation-duration: 1s;
+                                -webkit-animation-fill-mode: both;
+                                animation-fill-mode: both;
+                                }
+                                @-webkit-keyframes slideInRight {
+                                0% {
+                                -webkit-transform: translateX(100%);
+                                transform: translateX(100%);
+                                visibility: visible;
+                                }
+                                100% {
+                                -webkit-transform: translateX(0);
+                                transform: translateX(0);
+                                }
+                                }
+                                @keyframes slideInRight {
+                                0% {
+                                -webkit-transform: translateX(100%);
+                                transform: translateX(100%);
+                                visibility: visible;
+                                }
+                                100% {
+                                -webkit-transform: translateX(0);
+                                transform: translateX(0);
+                                }
+                                /* akhir animasi */
+                            
+                        }
+
+                        .tombol_sign_in {
+                            background-color:#EB64E5;
+                            border-radius: 30px;
+                            color: white;
+                            
+                        }
+
+                        .akun {
+                            color: rgb(201, 188, 188) !important;
+                            text-decoration: none !important;
+                            font-family: viga;
+                        }
+
+                        .tes {
+                            position: relative;
+                            margin-top: 7px;
+                        }
+
+                        .nav-link:hover::after {
+                            content: '';
+                            display: block;
+                            border-bottom: 3px solid #DE5DCB;
+                            width: 50%;
+                            margin: auto;
+                            padding-bottom: 5px;      
+                            margin-bottom: -8px;
+                        }
+
+                        .sorot:hover {
+                            color:#d1cccc !important;
+                        }
+
+                        .tombol_sign_in:hover {
+                            color:#d1cccc !important;
+                        }
+                        /* akhir navbar */
+
+                        /* jumbotron */
+                        .jumbotron {
+                            background-image: url("/images/banner.svg");
+                            margin-top: -80px;
+                            background-size: cover;
+                            clip-path: polygon(0 0, 100% 0%, 100% 60%, 61% 100%);
+                            opacity: 60%;
+
+                            /* animasi */
+                            -webkit-animation-name: slideInDown;
+                            animation-name: slideInDown;
+                            -webkit-animation-duration: 1s;
+                            animation-duration: 1s;
+                            -webkit-animation-fill-mode: both;
+                            animation-fill-mode: both;
+                            }
+                            @-webkit-keyframes slideInDown {
+                            0% {
+                            -webkit-transform: translateY(-100%);
+                            transform: translateY(-100%);
+                            visibility: visible;
+                            }
+                            100% {
+                            -webkit-transform: translateY(0);
+                            transform: translateY(0);
+                            }
+                            }
+                            @keyframes slideInDown {
+                            0% {
+                            -webkit-transform: translateY(-100%);
+                            transform: translateY(-100%);
+                            visibility: visible;
+                            }
+                            100% {
+                            -webkit-transform: translateY(0);
+                            transform: translateY(0);
+                            }
+                            /* akhir animasi */
+                        }
+                        /* akhir jumbotron */
+
+                        .jumbotron .display-4 {
+                            font-family: 'Annie Use Your Telescope', cursive;
+                            margin-left: 750px;
+                            margin-top: 0.2in;
+                            font-size: 48px;
+                            color: #ffffff !important;
+                            transform: rotate(3deg);
+                        }
+                        
+                        .jumbotron .display-5 {
+                            font-family: 'Annie Use Your Telescope', cursive;
+                            margin-left: 790px;
+                            margin-top: -0.1in;
+                            font-size: 36px;
+                            color: #ffffff !important;
+                            transform: rotate(-7deg);
+                        }
+
+                        .jumbotron .display-6 {
+                            font-family: 'Annie Use Your Telescope', cursive;
+                            margin-left: 950px;
+                            margin-top: -0.1in;
+                            font-size: 36px;
+                            color: #ffffff !important;
+                            transform: rotate(6deg);
+                        }
+
+                        .text-populer h5 {
+                            font-size: 24px;
+                            position: relative;
+                            bottom: 135px;
+                            z-index: 1;
+                            font-family: viga;
+
+                            /* animasi */
+                            -webkit-animation-name: slideInLeft;
+                            animation-name: slideInLeft;
+                            -webkit-animation-duration: 1s;
+                            animation-duration: 1s;
+                            -webkit-animation-fill-mode: both;
+                            animation-fill-mode: both;
+                            }
+                            @-webkit-keyframes slideInLeft {
+                            0% {
+                            -webkit-transform: translateX(-100%);
+                            transform: translateX(-100%);
+                            visibility: visible;
+                            }
+                            100% {
+                            -webkit-transform: translateX(0);
+                            transform: translateX(0);
+                            }
+                            }
+                            @keyframes slideInLeft {
+                            0% {
+                            -webkit-transform: translateX(-100%);
+                            transform: translateX(-100%);
+                            visibility: visible;
+                            }
+                            100% {
+                            -webkit-transform: translateX(0);
+                            transform: translateX(0);
+                            }
+                            /* akhir animasi */
+                        }
+
+                        .area_populer {
+                            width: 710px;
+                            margin-top: -150px;
+                            border: 1;
+                            
+                        }
+
+                        .s {
+                            height: 700px;
+                        }
+
+
+                        .kanan {
+                            height: 500px;
+                            width: 300px;
+                            margin-top: -30px;
+                            border: 1;
+                        }
+
+                        /* footer */
+                        footer {
+                            position: absolute;
+                            width: 100%;
+                            height: 100px;
+                            bottom: 0;
+                            background-image: url("/images/footer.svg");
+                            background-size: cover;
+                            opacity: 60%;
+                        }
+
+                        .copyright {
+                            color: cornsilk;
+                            margin: auto;
+                            margin-top: 10px;
+                        }
+                        /* akhir footer */
+                    }

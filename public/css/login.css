@@ -1,0 +1,88 @@
+.formlogin {
+    top: 50px;
+    width: 930px;
+    height: 530px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.text-home {
+    color:#7248E1;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    left: 810px;
+    top: 20px;
+}
+
+.loginkiri {
+    position: relative;
+    top: -21px;
+    left: -20px;
+    width: 500px;
+}
+
+.card .loginkanan {
+    position: absolute;
+    z-index: 1;
+    left: 540px;
+    top: 100px;
+    width: 350px;
+    border: 0;
+}
+
+.text-signin {
+    color:#7248E1;
+    font-size: 24px;
+    position: relative;
+    left: 5px;
+}
+
+.form-control {
+    margin-top: 28px;
+    width: 297;
+    height: 47px;
+    border-radius: 20px;
+}
+
+.checkbox {
+    position:absolute;
+    top: 225px;
+    left: 30px;
+}
+
+.Remember_Me {
+    position: relative;
+    left: 40px;
+    top: 21px;
+    font-size: 15px;
+    color: #C8C8C8;
+    
+}
+
+.forgot_pass {
+    position: relative;
+    left: 80px;
+    top: 21px;
+    font-size: 15px;
+    color: #C8C8C8;
+}
+
+.tombol-signin {
+    width: 297px;
+    height: 47px;
+    background: linear-gradient(to right, #7248E1, #EB64E5);   
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 17px;
+    color: white;
+}
+
+.text-register {
+    position: relative;
+    color:#C8C8C8;
+    font-size: 14px;
+    top: 20px;
+    left: 70px;
+}
